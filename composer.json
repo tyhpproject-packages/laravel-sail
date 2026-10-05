@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-sail",
+    "description": "Tyhp type definitions for laravel/sail 1.67.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.67.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-sail-impl": "~1.67.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-sail-impl"
+        }
+    }
+}
